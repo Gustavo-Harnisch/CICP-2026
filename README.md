@@ -1,53 +1,66 @@
 # Campamento de Invierno ICPC 2026
 
-Repositorio para documentar las jornadas, clases, apuntes, ejercicios,
-pistas y soluciones del Campamento de Invierno ICPC 2026.
+Repositorio para documentar las jornadas, clases, apuntes, ejercicios, pistas y soluciones del Campamento de Invierno ICPC 2026.
 
 ## Organización
 
-La documentación sigue el orden:
+La documentación sigue este orden:
 
 ```text
 Nivel → Día → Clase / Apuntes / Ejercicios
 ```
 
-Los ejercicios pueden conservar el mismo nombre para el código y su
-explicación:
+Los ejercicios pueden mantener el mismo nombre base para el código y su explicación:
 
 ```text
 D_Equal_Candies.cpp
 D_Equal_Candies.md
 ```
 
-## Ejecutar localmente
+## Ver el sitio localmente
+
+### Windows PowerShell
+
+```powershell
+.\scripts\serve.ps1
+```
+
+### Linux o macOS
+
+```bash
+chmod +x scripts/serve.sh
+./scripts/serve.sh
+```
+
+También puedes hacerlo manualmente:
 
 ```bash
 python -m venv .venv
+python -m pip install -r requirements.txt
+python -m mkdocs serve
 ```
 
-Linux o macOS:
+Luego abre:
 
-```bash
-source .venv/bin/activate
+```text
+http://127.0.0.1:8000/
 ```
 
-Windows:
+## Publicación
 
-```powershell
-.venv\Scripts\activate
+El workflow `.github/workflows/publicar-mkdocs.yml` publica automáticamente el sitio al hacer `push` a `main`.
+
+Después del primer despliegue, configura GitHub Pages así:
+
+```text
+Settings → Pages
+Source: Deploy from a branch
+Branch: gh-pages
+Folder: /(root)
 ```
 
-Instalar dependencias y levantar el sitio:
+La URL esperada es:
 
-```bash
-pip install -r requirements.txt
-mkdocs serve
+```text
+https://gustavo-harnisch.github.io/CICP-2026/
 ```
-
-## Construir
-
-```bash
-mkdocs build
-```
-
-El contenido generado quedará en la carpeta `site/`.
