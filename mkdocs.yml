@@ -1,0 +1,57 @@
+site_name: Campamento de Invierno ICPC 2026
+site_description: Clases, apuntes, ejercicios, pistas y soluciones del campamento.
+site_language: es
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Inicio: index.md
+  - Nivel inicial:
+      - Introducción: inicial/index.md
+      - Día 1: inicial/dia-01/index.md
+      - Día 2: inicial/dia-02/index.md
+      - Día 3: inicial/dia-03/index.md
+      - Día 4: inicial/dia-04/index.md
+      - Día 5: inicial/dia-05/index.md
+      - Día 6: inicial/dia-06/index.md
+      - Día 7: inicial/dia-07/index.md
+      - Día 8: inicial/dia-08/index.md
+      - Día 9: inicial/dia-09/index.md
+      - Día 10: inicial/dia-10/index.md
+      - Día 11: inicial/dia-11/index.md
+      - Día 12: inicial/dia-12/index.md
+  - Nivel avanzado:
+      - Introducción: avanzado/index.md
+      - Día 1: avanzado/dia-01/index.md
+      - Día 2: avanzado/dia-02/index.md
+      - Día 3: avanzado/dia-03/index.md
+      - Día 4: avanzado/dia-04/index.md
+      - Día 5: avanzado/dia-05/index.md
+      - Día 6: avanzado/dia-06/index.md
+      - Día 7: avanzado/dia-07/index.md
+      - Día 8: avanzado/dia-08/index.md
+      - Día 9: avanzado/dia-09/index.md
+      - Día 10: avanzado/dia-10/index.md
+      - Día 11: avanzado/dia-11/index.md
+      - Día 12: avanzado/dia-12/index.md
+  - Ejercicios:
+      - Nivel inicial: ejercicios/inicial.md
+      - Nivel avanzado: ejercicios/avanzado.md
