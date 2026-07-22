@@ -3,7 +3,6 @@ site_description: Clases, apuntes, ejercicios, pistas y soluciones del campament
 site_url: https://gustavo-harnisch.github.io/CICP-2026/
 repo_name: Gustavo-Harnisch/CICP-2026
 repo_url: https://github.com/Gustavo-Harnisch/CICP-2026
-site_language: es
 
 theme:
   name: material
