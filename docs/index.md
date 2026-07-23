@@ -1,6 +1,6 @@
 # Campamento de Invierno ICPC 2026
 
-![Banner temporal del Campamento de Invierno ICPC 2026](assets/banner-cicp-2026.svg)
+![Banner del Campamento de Invierno ICPC 2026](assets/banner-cicp-2026.png){ .site-banner }
 
 Bienvenido al repositorio de contenidos del **Campamento de Invierno ICPC 2026**. Este sitio reúne el material de las salas **Inicial** y **Avanzada**: clases, apuntes, ejercicios, pistas, soluciones y código en C++.
 

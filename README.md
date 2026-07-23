@@ -1,5 +1,7 @@
 # Campamento de Invierno ICPC 2026
 
+![Banner del Campamento de Invierno ICPC 2026](docs/assets/banner-cicp-2026.png)
+
 Repositorio público de material para el **Campamento de Invierno ICPC 2026**. El sitio reúne apuntes, clases, ejercicios y soluciones de programación competitiva para los niveles inicial y avanzado.
 
 Sitio publicado: <https://gustavo-harnisch.github.io/CICP-2026/>
