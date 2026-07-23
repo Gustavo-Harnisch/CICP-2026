@@ -1,66 +1,67 @@
 # Campamento de Invierno ICPC 2026
 
-Repositorio para documentar las jornadas, clases, apuntes, ejercicios, pistas y soluciones del Campamento de Invierno ICPC 2026.
+Repositorio público de material para el **Campamento de Invierno ICPC 2026**. El sitio reúne apuntes, clases, ejercicios y soluciones de programación competitiva para los niveles inicial y avanzado.
 
-## Organización
+Sitio publicado: <https://gustavo-harnisch.github.io/CICP-2026/>
 
-La documentación sigue este orden:
+## Objetivo
 
-```text
-Nivel → Día → Clase / Apuntes / Ejercicios
-```
+Este repositorio busca dejar disponible el material del campamento en un formato ordenado, fácil de navegar y útil para estudiar después de las clases. La documentación está construida con MkDocs y organizada por nivel, día y ejercicios.
 
-Los ejercicios pueden mantener el mismo nombre base para el código y su explicación:
+## Estructura
 
 ```text
-D_Equal_Candies.cpp
-D_Equal_Candies.md
+docs/
+  inicial/
+    dia-01/
+      index.md
+      ejercicios/
+        index.md
+  avanzado/
+    dia-01/
+      index.md
+      ejercicios/
+        index.md
+plantillas/
+snippets/
 ```
 
-## Ver el sitio localmente
+Cada día mantiene una página principal con objetivos y apuntes, y una página separada para los ejercicios de esa jornada.
 
-### Windows PowerShell
+## Contribuir
 
-```powershell
-.\scripts\serve.ps1
-```
+Las contribuciones son bienvenidas. Puedes apoyar agregando:
 
-### Linux o macOS
+- Explicaciones de ejercicios.
+- Soluciones en C++.
+- Correcciones a apuntes existentes.
+- Nuevos enlaces o recursos útiles.
+- Mejoras de redacción, formato o navegación.
 
-```bash
-chmod +x scripts/serve.sh
-./scripts/serve.sh
-```
+Para contribuir, puedes abrir un pull request desde un fork del repositorio o subir tus archivos a una rama y pedir revisión. Revisa [CONTRIBUTING.md](CONTRIBUTING.md) antes de enviar cambios.
 
-También puedes hacerlo manualmente:
+## Formato de ejercicios
 
-```bash
-python -m venv .venv
-python -m pip install -r requirements.txt
-python -m mkdocs serve
-```
-
-Luego abre:
+Los ejercicios de cada día deben seguir la estructura definida en la plantilla:
 
 ```text
-http://127.0.0.1:8000/
+plantillas/ejercicio.md
 ```
 
-## Publicación
+Si agregas código, preferimos mantenerlo como archivo `.cpp` dentro de `snippets/` e incluirlo desde Markdown usando snippets de MkDocs:
 
-El workflow `.github/workflows/publicar-mkdocs.yml` publica automáticamente el sitio al hacer `push` a `main`.
-
-Después del primer despliegue, configura GitHub Pages así:
-
-```text
-Settings → Pages
-Source: Deploy from a branch
-Branch: gh-pages
-Folder: /(root)
+````md
+```cpp
+--8<-- "snippets/inicial/dia-01/solucion.cpp"
 ```
+````
 
-La URL esperada es:
+Esto evita duplicar código y hace más fácil corregir soluciones.
 
-```text
-https://gustavo-harnisch.github.io/CICP-2026/
-```
+## Desarrollo local
+
+La guía rápida para levantar el sitio localmente está en [stupid.md](stupid.md).
+
+## Licencia
+
+Este proyecto se publica bajo licencia MIT. Ver [LICENSE](LICENSE).

@@ -1,27 +1,29 @@
-# Día 8 — Tema pendiente
+# Día 8 — Brute force y Matemáticas
 
-## Resumen
+## Objetivos
 
-Pendiente de completar durante el levantamiento del repositorio.
+- Determinar cuándo una búsqueda exhaustiva es suficientemente eficiente.
+- Reducir casos usando propiedades matemáticas simples.
+- Combinar enumeración con observaciones para evitar trabajo innecesario.
 
-## Temas vistos
+## Apuntes
 
-- Tema pendiente
-- Tema pendiente
-- Tema pendiente
+### Fuerza bruta razonada
 
-## Material de la clase
+La fuerza bruta no significa programar sin pensar. Significa enumerar posibilidades cuando la cantidad de casos es manejable o cuando una observación permite reducirla. La clave es contar cuántas opciones reales se revisan y qué cuesta evaluar cada una.
 
-- [Clase](clase.md)
-- [Apuntes](apuntes.md)
-- [Ejercicios](ejercicios/index.md)
+### Matemáticas como reducción
 
-## Ejercicios de la jornada
+Propiedades como divisibilidad, paridad, residuos, máximo común divisor, sumas conocidas o factorización pueden transformar un problema grande en uno pequeño. Estas herramientas son útiles cuando el enunciado habla de números, operaciones repetidas o condiciones que deben cumplirse exactamente.
 
-| Problema | Tema | Enunciado | Explicación | Código |
-|---|---|---|---|---|
-| Pendiente | — | — | — | — |
+### Enumerar una parte
 
-## Observaciones
+Una técnica frecuente es fijar una variable y deducir las demás. Si se enumeran todas las variables, la solución explota; si se elige bien qué enumerar, el resto puede calcularse directo o verificarse rápido.
 
-Pendiente de completar.
+### Cuidado con overflow
+
+En problemas matemáticos, los valores intermedios suelen crecer más que las entradas. Hay que estimar productos y acumulaciones antes de elegir tipos, especialmente cuando se comparan cuadrados, combinaciones o sumas de muchos términos.
+
+## Ejercicios
+
+Ver [ejercicios del día](ejercicios/index.md).

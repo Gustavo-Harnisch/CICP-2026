@@ -1,27 +1,25 @@
-# Día 12 — Tema pendiente
+# Día 12 — Cierre
 
-## Resumen
+## Objetivos
 
-Pendiente de completar durante el levantamiento del repositorio.
+- Sintetizar las técnicas principales trabajadas durante el campamento.
+- Identificar fortalezas y temas que requieren práctica posterior.
+- Definir una forma de continuar entrenando con problemas adecuados.
 
-## Temas vistos
+## Apuntes
 
-- Tema pendiente
-- Tema pendiente
-- Tema pendiente
+### Síntesis de contenidos
 
-## Material de la clase
+El cierre sirve para mirar el recorrido completo: implementación en C++, complejidad, estructuras de datos, greedy, búsqueda binaria, programación dinámica, matemáticas y grafos. Lo importante es entender qué tipo de pregunta responde cada técnica.
 
-- [Clase](clase.md)
-- [Apuntes](apuntes.md)
-- [Ejercicios](ejercicios/index.md)
+### Diagnóstico personal
 
-## Ejercicios de la jornada
+Una buena forma de cerrar es clasificar los errores frecuentes: lectura, modelamiento, implementación, casos borde o complejidad. Esa clasificación ayuda a decidir qué practicar primero después del campamento.
 
-| Problema | Tema | Enunciado | Explicación | Código |
-|---|---|---|---|---|
-| Pendiente | — | — | — | — |
+### Plan de práctica
 
-## Observaciones
+La práctica efectiva combina problemas alcanzables con algunos desafíos más difíciles. Conviene resolver, revisar soluciones ajenas cuando sea necesario y reimplementar ideas importantes días después para comprobar que realmente quedaron aprendidas.
 
-Pendiente de completar.
+## Ejercicios
+
+Ver [ejercicios del día](ejercicios/index.md).

@@ -1,27 +1,26 @@
 # Campamento de Invierno ICPC 2026
 
-Bienvenido a la documentación del campamento.
+![Banner temporal del Campamento de Invierno ICPC 2026](assets/banner-cicp-2026.svg)
 
-Este sitio reunirá lo trabajado en las salas **Inicial** y **Avanzada**:
+Bienvenido al repositorio de contenidos del **Campamento de Invierno ICPC 2026**. Este sitio reúne el material de las salas **Inicial** y **Avanzada**: clases, apuntes, ejercicios, pistas, soluciones y código en C++.
 
-- contenidos vistos durante cada jornada;
-- material utilizado en clase;
-- apuntes complementarios;
-- ejercicios de programación competitiva;
-- pistas progresivas;
-- soluciones explicadas en español;
-- análisis de complejidad;
-- código fuente en C++.
+## Accesos rápidos
 
-## Cómo recorrer el contenido
+| Sección | Contenido |
+| --- | --- |
+| [Cronograma](cronograma.md) | Calendario general de jornadas, temas y profesores. |
+| [Nivel inicial](inicial/index.md) | Ruta para quienes están consolidando bases de programación competitiva. |
+| [Nivel avanzado](avanzado/index.md) | Ruta para contenidos de mayor profundidad técnica. |
+| [Recursos](recursos.md) | Enlaces y referencias útiles para practicar. |
 
-Selecciona un nivel y luego una jornada. Cada día tendrá un resumen,
-los materiales de clase y los ejercicios correspondientes.
+## Cómo usar el sitio
 
-## Flujo recomendado para los ejercicios
+Cada jornada está organizada con objetivos, apuntes y un enlace directo a sus ejercicios. Para estudiar un día, entra al nivel correspondiente, abre la jornada y luego avanza a los ejercicios desde esa misma página.
 
-1. Leer el problema original.
-2. Intentar resolverlo sin consultar la solución.
-3. Revisar una pista cuando sea necesario.
-4. Estudiar la idea y el algoritmo.
-5. Comparar con la implementación en C++.
+## Flujo recomendado para ejercicios
+
+1. Leer el enunciado completo.
+2. Intentar una solución propia antes de mirar pistas.
+3. Usar las pistas de forma progresiva cuando sea necesario.
+4. Revisar la idea del algoritmo y su complejidad.
+5. Comparar la implementación con el código en C++.

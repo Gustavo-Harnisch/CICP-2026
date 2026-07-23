@@ -1,27 +1,17 @@
 # Día N — Nombre del tema
 
-## Resumen
+## Objetivos
 
-Explicación breve de lo trabajado durante la jornada.
+- Objetivo 1
+- Objetivo 2
+- Objetivo 3
 
-## Temas vistos
+## Apuntes
 
-- Tema 1
-- Tema 2
-- Tema 3
+### Subtema
 
-## Material de la clase
+Resumen conceptual de lo visto en clase, en prosa clara y ordenada por subtema.
 
-- [Clase](clase.md)
-- [Apuntes](apuntes.md)
-- [Ejercicios](ejercicios/index.md)
+## Ejercicios
 
-## Ejercicios de la jornada
-
-| Problema | Tema | Enunciado | Explicación | Código |
-|---|---|---|---|---|
-| Nombre | Tema | [Ver](URL) | [Leer](ejercicios/archivo.md) | [C++](ejercicios/archivo.cpp) |
-
-## Observaciones
-
-Agrega conclusiones, dificultades o aprendizajes de la jornada.
+Ver [ejercicios del día](ejercicios/index.md).

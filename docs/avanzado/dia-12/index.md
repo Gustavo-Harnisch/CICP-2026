@@ -1,27 +1,25 @@
-# Día 12 — Tema pendiente
+# Día 12 — Cierre
 
-## Resumen
+## Objetivos
 
-Pendiente de completar durante el levantamiento del repositorio.
+- Integrar las técnicas avanzadas vistas durante el campamento.
+- Identificar patrones de modelamiento que se repiten en problemas difíciles.
+- Definir una ruta de entrenamiento posterior con foco técnico.
 
-## Temas vistos
+## Apuntes
 
-- Tema pendiente
-- Tema pendiente
-- Tema pendiente
+### Mapa de técnicas
 
-## Material de la clase
+El cierre avanzado permite ordenar herramientas como randomización, persistencia, strings, dinámica avanzada, descomposición por raíz, offline, teoría de juegos, flujo y geometría. Cada una resuelve una clase de estructura distinta; reconocer esa estructura es parte central del entrenamiento.
 
-- [Clase](clase.md)
-- [Apuntes](apuntes.md)
-- [Ejercicios](ejercicios/index.md)
+### De técnica a criterio
 
-## Ejercicios de la jornada
+Saber implementar una técnica no basta. Hay que saber cuándo usarla, cuándo una versión más simple alcanza y qué condiciones necesita para ser correcta. Ese criterio se forma comparando problemas similares y entendiendo sus diferencias.
 
-| Problema | Tema | Enunciado | Explicación | Código |
-|---|---|---|---|---|
-| Pendiente | — | — | — | — |
+### Entrenamiento posterior
 
-## Observaciones
+Una ruta efectiva combina reimplementación de plantillas, problemas temáticos y contests completos. Las plantillas deben estar probadas, pero el foco principal debe seguir siendo el modelamiento y la justificación de por qué la solución funciona.
 
-Pendiente de completar.
+## Ejercicios
+
+Ver [ejercicios del día](ejercicios/index.md).

@@ -7,56 +7,137 @@ repo_url: https://github.com/Gustavo-Harnisch/CICP-2026
 theme:
   name: material
   language: es
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/school
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.path
+    - toc.follow
+    - search.suggest
+    - search.highlight
     - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.superfences
+  - pymdownx.snippets:
+      base_path: !relative $config_dir
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 nav:
   - Inicio: index.md
+  - Cronograma: cronograma.md
 
   - Nivel inicial:
       - Introducción: inicial/index.md
-      - Día 1: inicial/dia-01/index.md
-      - Día 2: inicial/dia-02/index.md
-      - Día 3: inicial/dia-03/index.md
-      - Día 4: inicial/dia-04/index.md
-      - Día 5: inicial/dia-05/index.md
-      - Día 6: inicial/dia-06/index.md
-      - Día 7: inicial/dia-07/index.md
-      - Día 8: inicial/dia-08/index.md
-      - Día 9: inicial/dia-09/index.md
-      - Día 10: inicial/dia-10/index.md
-      - Día 11: inicial/dia-11/index.md
-      - Día 12: inicial/dia-12/index.md
+      - Día 1 — C++:
+          - inicial/dia-01/index.md
+          - Ejercicios: inicial/dia-01/ejercicios/index.md
+      - Día 2 — Complejidad y estructuras:
+          - inicial/dia-02/index.md
+          - Ejercicios: inicial/dia-02/ejercicios/index.md
+      - Día 3 — Sorting, greedy y binaria:
+          - inicial/dia-03/index.md
+          - Ejercicios: inicial/dia-03/ejercicios/index.md
+      - Día 4 — Programación Dinámica:
+          - inicial/dia-04/index.md
+          - Ejercicios: inicial/dia-04/ejercicios/index.md
+      - Día 5 — Resolución de Problemas:
+          - inicial/dia-05/index.md
+          - Ejercicios: inicial/dia-05/ejercicios/index.md
+      - Día 8 — Brute force y Matemáticas:
+          - inicial/dia-08/index.md
+          - Ejercicios: inicial/dia-08/ejercicios/index.md
+      - Día 9 — Grafos I:
+          - inicial/dia-09/index.md
+          - Ejercicios: inicial/dia-09/ejercicios/index.md
+      - Día 10 — Resolución de Problemas:
+          - inicial/dia-10/index.md
+          - Ejercicios: inicial/dia-10/ejercicios/index.md
+      - Día 11 — Grafos II:
+          - inicial/dia-11/index.md
+          - Ejercicios: inicial/dia-11/ejercicios/index.md
+      - Día 12 — Cierre:
+          - inicial/dia-12/index.md
+          - Ejercicios: inicial/dia-12/ejercicios/index.md
 
   - Nivel avanzado:
       - Introducción: avanzado/index.md
-      - Día 1: avanzado/dia-01/index.md
-      - Día 2: avanzado/dia-02/index.md
-      - Día 3: avanzado/dia-03/index.md
-      - Día 4: avanzado/dia-04/index.md
-      - Día 5: avanzado/dia-05/index.md
-      - Día 6: avanzado/dia-06/index.md
-      - Día 7: avanzado/dia-07/index.md
-      - Día 8: avanzado/dia-08/index.md
-      - Día 9: avanzado/dia-09/index.md
-      - Día 10: avanzado/dia-10/index.md
-      - Día 11: avanzado/dia-11/index.md
-      - Día 12: avanzado/dia-12/index.md
+      - Día 1 — Algoritmos randomizados:
+          - avanzado/dia-01/index.md
+          - Ejercicios: avanzado/dia-01/ejercicios/index.md
+      - Día 2 — EDD's persistentes:
+          - avanzado/dia-02/index.md
+          - Ejercicios: avanzado/dia-02/ejercicios/index.md
+      - Día 3 — Prefix Function y Aho-Corasick:
+          - avanzado/dia-03/index.md
+          - Ejercicios: avanzado/dia-03/ejercicios/index.md
+      - Día 4 — Programación Dinámica Avanzada:
+          - avanzado/dia-04/index.md
+          - Ejercicios: avanzado/dia-04/ejercicios/index.md
+      - Día 5 — Sqrt tricks y Algoritmos offline:
+          - avanzado/dia-05/index.md
+          - Ejercicios: avanzado/dia-05/ejercicios/index.md
+      - Día 8 — Teoría de Juegos:
+          - avanzado/dia-08/index.md
+          - Ejercicios: avanzado/dia-08/ejercicios/index.md
+      - Día 9 — Flujo:
+          - avanzado/dia-09/index.md
+          - Ejercicios: avanzado/dia-09/ejercicios/index.md
+      - Día 10 — Resolución de Problemas:
+          - avanzado/dia-10/index.md
+          - Ejercicios: avanzado/dia-10/ejercicios/index.md
+      - Día 11 — Geometría Computacional:
+          - avanzado/dia-11/index.md
+          - Ejercicios: avanzado/dia-11/ejercicios/index.md
+      - Día 12 — Cierre:
+          - avanzado/dia-12/index.md
+          - Ejercicios: avanzado/dia-12/ejercicios/index.md
 
-  - Ejercicios:
-      - Nivel inicial: ejercicios/inicial.md
-      - Nivel avanzado: ejercicios/avanzado.md
+  - Recursos: recursos.md
+
+watch:
+  - snippets

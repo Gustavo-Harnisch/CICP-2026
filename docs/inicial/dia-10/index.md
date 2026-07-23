@@ -1,27 +1,29 @@
-# Día 10 — Tema pendiente
+# Día 10 — Resolución de Problemas
 
-## Resumen
+## Objetivos
 
-Pendiente de completar durante el levantamiento del repositorio.
+- Integrar técnicas vistas durante el nivel inicial en problemas completos.
+- Practicar selección de enfoque bajo restricciones de tiempo.
+- Mejorar depuración y validación de soluciones antes de enviar.
 
-## Temas vistos
+## Apuntes
 
-- Tema pendiente
-- Tema pendiente
-- Tema pendiente
+### Elegir técnica
 
-## Material de la clase
+En una jornada de resolución, el desafío es reconocer señales del enunciado. Restricciones grandes sugieren pensar en complejidad; relaciones sugieren grafos; decisiones acumuladas pueden sugerir dinámica; ordenamientos y extremos pueden abrir enfoques greedy.
 
-- [Clase](clase.md)
-- [Apuntes](apuntes.md)
-- [Ejercicios](ejercicios/index.md)
+### Plan de ataque
 
-## Ejercicios de la jornada
+Antes de escribir código, conviene formular una idea en una frase y estimar su costo. Si no se puede explicar brevemente por qué funciona, probablemente falta una observación o hay un caso borde sin resolver.
 
-| Problema | Tema | Enunciado | Explicación | Código |
-|---|---|---|---|---|
-| Pendiente | — | — | — | — |
+### Depuración
 
-## Observaciones
+Separar lectura, solución e impresión facilita probar. Cuando algo falla, se puede imprimir el estado intermedio, comparar con una simulación pequeña o construir casos mínimos donde la respuesta sea obvia.
 
-Pendiente de completar.
+### Aprender del envío
+
+Un rechazo no solo indica que el código falló: también entrega información. Puede revelar un caso borde, un límite de tiempo, overflow o una interpretación incorrecta. Registrar el tipo de error ayuda a no repetirlo.
+
+## Ejercicios
+
+Ver [ejercicios del día](ejercicios/index.md).

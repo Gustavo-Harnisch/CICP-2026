@@ -1,27 +1,29 @@
-# Día 10 — Tema pendiente
+# Día 10 — Resolución de Problemas
 
-## Resumen
+## Objetivos
 
-Pendiente de completar durante el levantamiento del repositorio.
+- Combinar técnicas avanzadas según señales del enunciado.
+- Practicar modelamiento antes de implementar soluciones largas.
+- Evaluar riesgos de complejidad, memoria y casos borde en problemas difíciles.
 
-## Temas vistos
+## Apuntes
 
-- Tema pendiente
-- Tema pendiente
-- Tema pendiente
+### Selección de enfoque
 
-## Material de la clase
+En problemas avanzados, varias técnicas pueden parecer posibles. Conviene identificar primero la estructura dominante: rangos y consultas, estados y decisiones, grafos con capacidades, strings, geometría o propiedades matemáticas. Esa lectura reduce el espacio de búsqueda de ideas.
 
-- [Clase](clase.md)
-- [Apuntes](apuntes.md)
-- [Ejercicios](ejercicios/index.md)
+### Modelamiento
 
-## Ejercicios de la jornada
+Una solución avanzada suele depender más del modelamiento que de la plantilla. Dibujar estados, capas, invariantes o transformaciones ayuda a ver si el algoritmo realmente responde lo que pide el enunciado.
 
-| Problema | Tema | Enunciado | Explicación | Código |
-|---|---|---|---|---|
-| Pendiente | — | — | — | — |
+### Control de implementación
 
-## Observaciones
+Las soluciones largas deben escribirse por módulos. Separar construcción, algoritmo principal y respuesta por caso permite probar partes independientes y cambiar el modelamiento sin reescribir todo.
 
-Pendiente de completar.
+### Análisis posterior
+
+Después de resolver o fallar un problema, es útil registrar cuál fue la observación central. Esa memoria de patrones permite reconocer técnicas más rápido en competencias futuras.
+
+## Ejercicios
+
+Ver [ejercicios del día](ejercicios/index.md).

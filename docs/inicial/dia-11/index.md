@@ -1,27 +1,29 @@
-# Día 11 — Tema pendiente
+# Día 11 — Grafos II
 
-## Resumen
+## Objetivos
 
-Pendiente de completar durante el levantamiento del repositorio.
+- Profundizar en problemas de grafos con más estructura que conectividad básica.
+- Reconocer cuándo se necesita orden, distancias o procesamiento por componentes.
+- Combinar recorridos con información adicional del problema.
 
-## Temas vistos
+## Apuntes
 
-- Tema pendiente
-- Tema pendiente
-- Tema pendiente
+### Más allá de recorrer
 
-## Material de la clase
+Después de aprender DFS y BFS, muchos problemas exigen guardar información durante el recorrido: padre, distancia, color, tiempo de visita o componente. Esa información convierte una exploración simple en una herramienta para responder preguntas más específicas.
 
-- [Clase](clase.md)
-- [Apuntes](apuntes.md)
-- [Ejercicios](ejercicios/index.md)
+### Grafos dirigidos y no dirigidos
 
-## Ejercicios de la jornada
+La dirección de las aristas cambia el significado de alcanzabilidad. En un grafo no dirigido, una conexión sirve en ambos sentidos; en uno dirigido, el orden importa y pueden aparecer vértices alcanzables desde un lado pero no desde el otro.
 
-| Problema | Tema | Enunciado | Explicación | Código |
-|---|---|---|---|---|
-| Pendiente | — | — | — | — |
+### Procesamiento por componentes
 
-## Observaciones
+Agrupar vértices conectados permite resolver el problema por partes. Si no hay aristas entre dos grupos, muchas decisiones se pueden tomar independientemente. Esta idea reduce problemas grandes a varios subproblemas más simples.
 
-Pendiente de completar.
+### Distancias y estados
+
+A veces el vértice no basta para representar una situación. Si el movimiento depende de una condición adicional, como paridad, recurso disponible o modo actual, el estado del recorrido debe incluir esa información para que BFS o DFS sean correctos.
+
+## Ejercicios
+
+Ver [ejercicios del día](ejercicios/index.md).

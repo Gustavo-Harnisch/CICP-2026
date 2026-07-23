@@ -1,55 +1,23 @@
-# Letra. Nombre del problema
+# Ejercicios — Día N
 
-## Información
+| # | Problema | Link |
+|---|---|---|
+| A | Nombre del problema | [Enunciado](URL) |
 
-- **Plataforma:** Codeforces
-- **Nivel:** Inicial o Avanzado
-- **Jornada:** Día N
-- **Tema principal:** Pendiente
-- **Enunciado:** [Ver problema](URL)
-- **Código:** [Ver solución en C++](ARCHIVO.cpp)
+## A — Nombre del problema
 
-## Descripción
+**Link:** [Enunciado](URL)
 
-Resume el problema con palabras propias, sin copiar el enunciado completo.
+### Idea (sin código)
 
-## Antes de mirar la solución
+Explica la solución en términos humanos, como si se la contaras a alguien en una pizarra.
 
-- Pregunta guía 1.
-- Pregunta guía 2.
+### Conceptualización técnica
 
-??? tip "Pista 1"
-    Escribe aquí una pista breve.
+Traduce la idea a términos de algoritmia: estructura de datos, técnica, complejidad y pasos.
 
-??? tip "Pista 2"
-    Escribe aquí una pista más directa.
-
-## Idea de la solución
-
-Explica la observación principal.
-
-## Algoritmo
-
-1. Paso uno.
-2. Paso dos.
-3. Paso tres.
-
-## Correctitud
-
-Explica por qué el algoritmo produce la respuesta correcta.
-
-## Complejidad
-
-- **Tiempo:** `O(...)`
-- **Memoria adicional:** `O(...)`
-
-## Implementación
+### Solución
 
 ```cpp
-// Fragmento importante o enlace al archivo completo.
+--8<-- "snippets/ruta/solucion.cpp"
 ```
-
-## Errores comunes
-
-- Error frecuente 1.
-- Error frecuente 2.
